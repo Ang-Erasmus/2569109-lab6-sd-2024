@@ -41,7 +41,26 @@
         res.json(cars);
     });*/
 
-const cars = require('./cars.json');
+cars = [
+    {
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2022,
+        "price": 250000
+    },
+    {
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2021,
+        "price": 200000
+    },
+    {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2020,
+        "price": 300000
+    }
+]
 
 module.exports = async function (context, req) {
     

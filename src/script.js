@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 function addCar(newCar) {
-    fetch('/api/carInfo/', {
+    fetch('/api/carInfo', {
         method: "POST",
         headers: {
             "function" : "add"

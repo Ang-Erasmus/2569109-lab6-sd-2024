@@ -65,7 +65,7 @@ let cars = [
 module.exports = async function (context, req) {
     
     if(req.method==="GET"){
-        context.res.json({arr: cars});
+        context.res.json(cars);
         
     }
     

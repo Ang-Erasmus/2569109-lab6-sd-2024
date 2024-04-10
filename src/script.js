@@ -33,6 +33,7 @@ function addCar(newCar) {
     fetch('/api/carInfo', {
         method: "POST",
         headers: {
+            "Content-Type" : "application/JSON",
             "function" : "add"
         },
         body: JSON.stringify(newCar)

@@ -41,7 +41,7 @@
         res.json(cars);
     });*/
 
-cars = [
+let cars = [
     {
         "make": "Toyota",
         "model": "Camry",
